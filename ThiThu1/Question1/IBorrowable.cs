@@ -8,7 +8,7 @@ namespace Question1
 {
     internal interface IBorrowable
     {
-        int CurrentLoans { get; }
-        bool BorrowBooks(int quantity);
+        public int CurrentLoans { get; }
+        public bool BorrowBooks(int quantity);
     }
 }

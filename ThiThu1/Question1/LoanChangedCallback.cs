@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace Question1
 {
-    internal delegate void LoanChangedCallback();
+    internal delegate void LoanChangedCallback(string memberName, int currentLoans);
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Question1
 {
-    internal class StudentMember
+    internal class StudentMember : MemberRecord, IBorrowable
     {
         public string Major { get; set; }
 
